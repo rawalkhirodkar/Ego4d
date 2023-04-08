@@ -34,7 +34,6 @@ from ego4d.internal.human_pose.readers import read_frame_idx_set
 
 from iopath.common.file_io import PathManager
 from iopath.common.s3 import S3PathHandler
-from mmpose.apis import inference_top_down_pose_model, init_pose_model
 from tqdm.auto import tqdm
 import numpy as np
 
